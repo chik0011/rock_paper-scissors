@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Luckiest+Guy&display=swap');
+
+body {
+    background: rgb(63,133,251);
+    background: radial-gradient(circle, rgba(63,133,251,1) 72%, rgba(70,98,252,1) 100%);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-page {
+    color: white;
+    font-size: 90px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 8px;
+}
+
+.btn-user {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin-right: 60px;
+}
+
+
+.btn-actions {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img {
+    width: 270px;
+}
+
+.img:hover {
+    width: 300px;
+    transition-duration: 0.5s;
+}
+
+.result {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 60%;
+	height: 500px;
+	background:beige;
+    border-radius: 15px;
+}
+
+.user-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.versus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.replay {
+    display: none;
+    margin-top: 2%;
+    justify-content: center;
+    border: none;
+}
+
+.replay-btn {
+    background-color: #FFB830;
+    border: none;
+    width: 15%;
+    height: 60px;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.replay-btn:hover {
+    background-color: #e09f26;
+    transition-duration: 0.5s;
+}
