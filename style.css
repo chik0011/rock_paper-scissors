@@ -49,7 +49,7 @@ body {
     margin-right: auto;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 60%;
 	height: 500px;
 	background:beige;
@@ -100,4 +100,17 @@ body {
 .replay-btn:hover {
     background-color: #e09f26;
     transition-duration: 0.5s;
+}
+
+.identity {
+    display: none;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.identity-page {
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 6px;
+    color: white;
 }

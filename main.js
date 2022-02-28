@@ -6,6 +6,7 @@ function initGame(signeUser) {
     document.querySelector(".btn-actions").style.display = "none";
     document.querySelector(".result").style.display = "flex";
     document.querySelector(".replay").style.display = "flex";
+    document.querySelector(".identity").style.display = "flex";
 
     var img = document.createElement("img");
     var imgbis = document.createElement("img");
